@@ -63,14 +63,14 @@ class DigitSum_Prime_Fiboncci {
     }
 
     void Fibonacci(int num) {
-        int first=0,second=1,next,i;
-		System.out.print(first+" "+second+" ");
-		for(i=2;i<num;i++)
-		{
-			next=first+second;
-			first=second;
-			second=next;
-			System.out.print(next+" ");
-		}
+        int first = 0, second = 1, next, i;
+        System.out.print(first + " " + second + " ");
+        for (i = 2; i < num; i++) {
+            next = first + second;
+            first = second;
+            second = next;
+            System.out.print(next + " ");
+        }
+        System.out.println();
     }
 }
